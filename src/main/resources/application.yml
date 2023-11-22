@@ -5,12 +5,6 @@ spring:
   application:
     name: msa-eureka-server
 
-  cloud:
-    config:
-      uri: http://localhost:8888
-      name: config
-      profile: local
-
   config:
     import: "optional:configserver:"
 
